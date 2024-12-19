@@ -49,7 +49,7 @@ For any queries or suggestions, feel free to reach out at:
 ## Acknowledgments 🙏💖
 
 - Thanks to the open-source community for the awesome tools and libraries used in this app. 🌐🛠️
-- Special thanks to [hashimthepassionate]. 🌟🤝
+- Special thanks to [hashimthepassionate](https://github.com/HashimThePassionate). 🌟🤝
 
 ---
 Hope you enjoy using the Task app! 🚀🎉
