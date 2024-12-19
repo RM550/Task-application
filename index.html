@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management App</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Add a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <div id="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Popup for delete confirmation -->
+    <div id="popup">
+        <div id="popup-content">
+            <p>Are you sure you want to delete this task?</p>
+            <button id="confirm-delete" class="confirm">Yes</button>
+            <button id="cancel-delete" class="cancel">No</button>
+        </div>
+    </div>
+    
+    <!-- Popup for time taken to complete task -->
+    <div id="time-popup">
+        <div id="time-popup-content">
+            <p>How much time did you take to complete this task? (in minutes)</p>
+            <input type="number" id="time-input" min="1" required>
+            <button id="save-time" class="confirm">Save</button>
+            <button id="cancel-time" class="cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
